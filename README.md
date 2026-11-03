@@ -84,7 +84,7 @@ flowchart TB
 ### 4.1 离线模式（推荐先用这个跑通，不需要 API Key）
 
 ```bash
-git clone <your-repo-url> && cd rag-kb-pro
+git clone https://github.com/QinHuai00/rag-kb-pro.git && cd rag-kb-pro
 python -m pip install -e ".[dev]"   # 只想装 pytest；核心链路本来就零依赖
 
 python -m pytest tests -q            # 本机实测：63 passed（未装 fastapi 时 57 passed, 1 skipped）
