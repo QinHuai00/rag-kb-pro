@@ -1,0 +1,31 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+
+# ---- 运行产物（上游仓库里被误提交，这里不入库�?---
+chroma_db/
+chat_history/
+md5.text
+_backup_before_fix/
+_run_check.py
+*.sqlite3
+eval/results.tmp.md
+
+# ---- 截图（README 用，体积大，不入库；需要时本地保留即可�?---
+assets/*.png
+
+# ---- 本地环境变量 ----
+.env
+.env.*
+# ---- �����ܲ���־ ----
+pytest.log

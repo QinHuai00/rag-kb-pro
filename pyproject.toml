@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ragkb"
+version = "0.2.0"
+description = "本地知识库 RAG：混合检索（BM25 + 向量）+ RRF 融合 + 轻量重排 + 离线评测"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "QinHuai00" }]
+keywords = ["rag", "retrieval", "bm25", "rrf", "hybrid-search", "knowledge-base", "fastapi"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Text Processing :: Indexing",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+# 核心链路刻意零依赖：只靠标准库就能入库 + 检索 + 评测
+dependencies = []
+
+[project.optional-dependencies]
+# 向量/生成接真实模型，走 OpenAI 兼容端点（仅需标准库 urllib，故无额外依赖）
+dev = ["pytest>=7.4"]
+api = ["fastapi>=0.110", "uvicorn>=0.27", "httpx>=0.27"]
+chroma = ["chromadb>=0.4.24", "numpy>=1.24"]
+all = ["pytest>=7.4", "fastapi>=0.110", "uvicorn>=0.27", "httpx>=0.27"]
+
+[project.urls]
+Homepage = "https://github.com/QinHuai00/rag-kb-pro"
+Upstream = "https://github.com/lhh737/KnowledgeBase-RAG-LLM-System"
+
+[project.scripts]
+ragkb-serve = "ragkb.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["ragkb*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"

@@ -1,0 +1,28 @@
+{"id": "q01", "question": "真丝连衣裙应该怎么洗涤和晾晒？", "gold_source": "洗涤养护.txt", "gold_keyword": "真丝专用中性洗涤剂", "difficulty": "easy", "note": "单一材质，关键词唯一"}
+{"id": "q02", "question": "羊毛衫的手洗水温上限是多少？", "gold_source": "洗涤养护.txt", "gold_keyword": "水温≤20℃", "difficulty": "easy", "note": "含符号/数字的精确约束"}
+{"id": "q03", "question": "羽绒服可以水洗吗，浸泡时间最长多久？", "gold_source": "洗涤养护.txt", "gold_keyword": "羽绒服专用洗涤剂", "difficulty": "easy", "note": "同段多约束问答"}
+{"id": "q04", "question": "灯芯绒外套熨烫要用什么手法？", "gold_source": "洗涤养护.txt", "gold_keyword": "顺绒方向熨烫", "difficulty": "easy", "note": "操作细节"}
+{"id": "q05", "question": "麂皮绒表面的灰尘怎么清理？", "gold_source": "洗涤养护.txt", "gold_keyword": "软毛刷", "difficulty": "easy", "note": "低频词，利于词法检索"}
+{"id": "q06", "question": "雪纺连衣裙收纳时怎么防止粘连？", "gold_source": "洗涤养护.txt", "gold_keyword": "垫一层薄纸", "difficulty": "easy", "note": "操作细节"}
+{"id": "q07", "question": "冰丝T恤最多能浸泡多长时间？", "gold_source": "洗涤养护.txt", "gold_keyword": "禁止长时间浸泡", "difficulty": "easy", "note": "数字约束 10 分钟"}
+{"id": "q08", "question": "针织衫洗完是平铺阴干还是挂着晾？", "gold_source": "洗涤养护.txt", "gold_keyword": "平铺阴干", "difficulty": "easy", "note": "二选一提问"}
+{"id": "q09", "question": "衣服上的油渍用什么处理最有效？", "gold_source": "洗涤养护.txt", "gold_keyword": "洗洁精原液", "difficulty": "medium", "note": "答案在通用小贴士，易与其它章节混淆"}
+{"id": "q10", "question": "身高175厘米、体重150斤，建议穿什么尺码？", "gold_source": "尺码推荐.txt", "gold_keyword": "建议尺码XL", "difficulty": "easy", "note": "尺码表内区间匹配"}
+{"id": "q11", "question": "身高190以上、体重210斤以上选哪个码？", "gold_source": "尺码推荐.txt", "gold_keyword": "建议尺码5XL", "difficulty": "easy", "note": "尺码表最大档"}
+{"id": "q12", "question": "皮肤偏黄的人适合穿什么颜色的衣服？", "gold_source": "颜色推荐.txt", "gold_keyword": "黄皮/暖黄皮", "difficulty": "easy", "note": "肤色配色原则"}
+{"id": "q13", "question": "去面试应该穿什么颜色比较合适？", "gold_source": "颜色推荐.txt", "gold_keyword": "正式场合（商务会议/面试）", "difficulty": "easy", "note": "场合配色"}
+{"id": "q14", "question": "哪种颜色搭配看起来更显瘦？", "gold_source": "颜色推荐.txt", "gold_keyword": "显瘦搭配", "difficulty": "easy", "note": "体型修饰"}
+{"id": "q15", "question": "参加宴会或派对适合什么颜色？", "gold_source": "颜色推荐.txt", "gold_keyword": "宴会/派对", "difficulty": "easy", "note": "场合配色"}
+{"id": "q16", "question": "黑皮肤可以穿荧光色吗？", "gold_source": "颜色推荐.txt", "gold_keyword": "黑皮避免荧光色", "difficulty": "easy", "note": "禁忌条目"}
+{"id": "q17", "question": "冬季厚羊毛大衣能不能水洗？为什么？", "gold_source": "洗涤养护.txt", "gold_keyword": "毡化", "difficulty": "medium", "note": "需要解释原因，答案含专业词"}
+{"id": "q18", "question": "羽绒服洗完怎么让它重新变蓬松？", "gold_source": "洗涤养护.txt", "gold_keyword": "轻轻拍打恢复蓬松", "difficulty": "medium", "note": "养护而非洗涤，易答偏"}
+{"id": "q19", "question": "真丝和雪纺的洗涤水温要求一样吗？", "gold_source": "洗涤养护.txt", "gold_keyword": "水温≤25℃", "difficulty": "hard", "note": "跨片段比较：真丝≤25℃、雪纺≤30℃"}
+{"id": "q20", "question": "日常通勤和正式场合的配色思路有什么区别？", "gold_source": "颜色推荐.txt", "gold_keyword": "日常通勤", "difficulty": "hard", "note": "同段两条并列规则，需一次取全"}
+{"id": "q21", "question": "体型比较丰满的人挑颜色要注意什么？", "gold_source": "颜色推荐.txt", "gold_keyword": "丰满体型", "difficulty": "medium", "note": "同义改写：微胖→丰满"}
+{"id": "q22", "question": "德绒保暖内衣可以用高温熨烫吗？", "gold_source": "洗涤养护.txt", "gold_keyword": "德绒材质避免高温熨烫", "difficulty": "medium", "note": "特殊材质否定型约束"}
+{"id": "q23", "question": "身高180、体重175斤要买多大码？", "gold_source": "尺码推荐.txt", "gold_keyword": "建议尺码3XL", "difficulty": "medium", "note": "落在两档重叠区，需按尺码表定位"}
+{"id": "q24", "question": "冬天想显高又保暖，羽绒服和颜色怎么一起考虑？", "gold_source": "颜色推荐.txt", "gold_keyword": "显高搭配", "difficulty": "hard", "note": "跨文档：羽绒养护在洗涤养护.txt，显高规则在颜色推荐.txt"}
+{"id": "q25", "question": "我皮肤偏白，想买真丝衬衫通勤穿，颜色和洗护各要注意什么？", "gold_source": "颜色推荐.txt", "gold_keyword": "冷白皮", "difficulty": "hard", "note": "跨文档 + 同义改写（偏白→冷白皮）"}
+{"id": "q26", "question": "换季收纳厚衣服，怎么既防虫又不让衣服变形？", "gold_source": "洗涤养护.txt", "gold_keyword": "樟脑丸", "difficulty": "hard", "note": "跨片段：防虫蛀剂 + 宽肩悬挂"}
+{"id": "q27", "question": "夏天想穿得凉快，颜色和材质分别怎么选？", "gold_source": "颜色推荐.txt", "gold_keyword": "夏季", "difficulty": "hard", "note": "跨文档：夏季配色 + 夏季材质洗护"}
+{"id": "q28", "question": "衣服不小心沾了血渍，应该用热水还是冷水？", "gold_source": "洗涤养护.txt", "gold_keyword": "血渍用冷水浸泡", "difficulty": "medium", "note": "同义改写 + 需否定直觉答案"}

@@ -1,0 +1,11 @@
+# 统一换行，避免 Windows 开发 / Linux CI 之间出现整文件 diff
+* text=auto eol=lf
+
+# 二进制资源不做换行转换
+*.png binary
+*.bin binary
+*.sqlite3 binary
+
+# 语料与评测数据保持原样
+*.txt text eol=lf
+*.jsonl text eol=lf
